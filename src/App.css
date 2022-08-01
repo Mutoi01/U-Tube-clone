@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Nunito', sans-serif;
+}
 
 .App {
 
@@ -7,6 +9,14 @@
   box-sizing: border-box;
   /* background-color:  #4B9426 ; */
   
+}
+.btn-5{
+
+  border:none ;
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 700;
+
 }
 
 
