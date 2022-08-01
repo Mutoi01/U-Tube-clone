@@ -29,7 +29,7 @@ function DisplayVideos (){
        </li>
 
        <li>
-    <Link to = "search" onClick={()=>setActive('search')} smooth >search</Link>
+    <Link to = "search" onClick={()=>setActive('search')} smooth >Search</Link>
          {/* <a href="/about">About</a> */}
        </li>
      </ul>
@@ -39,7 +39,7 @@ function DisplayVideos (){
 
   {active === "home" &&  <Home /> }
   {active === "contact" &&  <ContactUs /> }
-  {active === "search" &&  <setActive /> }
+  {active === "search" &&  <App /> }
   
  
   
