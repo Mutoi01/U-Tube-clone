@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/U-Tube-clone/static/css/main.a3b5c6a3.chunk.css",
+    "main.js": "/U-Tube-clone/static/js/main.3cce4a69.chunk.js",
+    "main.js.map": "/U-Tube-clone/static/js/main.3cce4a69.chunk.js.map",
+    "runtime-main.js": "/U-Tube-clone/static/js/runtime-main.98d14c75.js",
+    "runtime-main.js.map": "/U-Tube-clone/static/js/runtime-main.98d14c75.js.map",
+    "static/js/2.1b0c3a55.chunk.js": "/U-Tube-clone/static/js/2.1b0c3a55.chunk.js",
+    "static/js/2.1b0c3a55.chunk.js.map": "/U-Tube-clone/static/js/2.1b0c3a55.chunk.js.map",
+    "index.html": "/U-Tube-clone/index.html",
+    "precache-manifest.67780a591c96cafa0f4adf7a3de65bfc.js": "/U-Tube-clone/precache-manifest.67780a591c96cafa0f4adf7a3de65bfc.js",
+    "service-worker.js": "/U-Tube-clone/service-worker.js",
+    "static/css/main.a3b5c6a3.chunk.css.map": "/U-Tube-clone/static/css/main.a3b5c6a3.chunk.css.map",
+    "static/js/2.1b0c3a55.chunk.js.LICENSE.txt": "/U-Tube-clone/static/js/2.1b0c3a55.chunk.js.LICENSE.txt",
+    "static/media/youuttuubbee.jpg": "/U-Tube-clone/static/media/youuttuubbee.37c790a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98d14c75.js",
+    "static/js/2.1b0c3a55.chunk.js",
+    "static/css/main.a3b5c6a3.chunk.css",
+    "static/js/main.3cce4a69.chunk.js"
+  ]
+}
