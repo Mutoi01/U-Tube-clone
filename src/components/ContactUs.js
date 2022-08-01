@@ -22,8 +22,8 @@ function ContactUs (){
 
      <p>Search our FAQs for answers to anything you might be wondering</p>
 
-     <input type='text' placeholder= "Search our articles" search-bar ui segment />
-     <button type="button" className="btn btn-dark" >Search</button>
+     <input type='text' placeholder= "Search our articles" className='search-bar ui segment'  />
+     <button type="button" className="btn-5" >Search</button>
 
 
      {/* <a href="https://github.com/Mutoi01/U-Tube"> Twitter | Instagram | Discord </a> */}

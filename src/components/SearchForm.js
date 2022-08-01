@@ -3,26 +3,26 @@ import React, { useState } from 'react'
 
 
 export const SearchForm = ({onSearchSubmit}) => {
-    const [searchTerm, setSearchTerm] = useState('')
+    const [searchItem, setSearchItem] = useState('')
 
-    const searchTermHandler = (evt) => {
+    function handleInputChange  (evt)  {
         evt.preventDefault()
-        setSearchTerm(evt.target.value)
+        setSearchItem(evt.target.value)
     }
 
-    const onFormSubmit = (evt) => {
+    function  handleFormSubmit (evt) {
         evt.preventDefault()
-        onSearchSubmit(searchTerm)
+        onSearchSubmit(searchItem)
     }
     
     return (
           <>
             
-        <div className="search-bar ui segment" id="search"  >
-            <form className="ui form-control" onSubmit={onFormSubmit}>
+        <div className="search-bar ui segment"   >
+            <form className="ui form-control" onSubmit={handleFormSubmit}>
                 <div className="field">
                     <label>Video Search : </label>
-                    <input type="text" placeholder="Search..." value={searchTerm} onChange={searchTermHandler} />
+                    <input type="text" placeholder="Search..." value={searchItem} onChange={handleInputChange} />
                 </div>
             </form>
         </div>

@@ -25,8 +25,7 @@ export const App = () => {
 
     }
 
-    return KEY === '' ? <h1> </h1> :
-        <div className="ui container">
+    return <div className="ui container" id="search">
             <SearchForm onSearchSubmit={onSearchSubmit} />
             <div className="ui grid">
                 <div className="ui row">
