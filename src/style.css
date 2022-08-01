@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #D2D2CF ;
+  /* background-color:#4B9426; */
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: stretch; */
+  gap: 2rem;
+  padding: 0 4rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 1em;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: aliceblue;
+}
+
+.nav li:hover {
+  background-color: aliceblue;
+}
